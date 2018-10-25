@@ -9,7 +9,7 @@ module.exports = {
   mode: 'production',
   entry: { index: path.join(__dirname, '..', 'src', 'index.js') },
   output: {
-    path: path.join(__dirname, '..', 'web'),
+    path: path.join(__dirname, '..', '..'),
     filename: '[name].js',
     chunkFilename: '[name].[contenthash].js',
     publicPath: '/',

@@ -20,7 +20,7 @@
     "lint": "npm run prettify:js && npm run prettify:ts",
     "precommit-msg": "echo 'Pre-commit checks...' && exit 0",
     "dev": "webpack-dev-server --open --config webpack.config/dev.js",
-    "web": "npm run clean:web && npm run lint && webpack --config webpack.config/web.js",
+    "web": "npm run clean:web && npm run lint && webpack --config webpack.config/web.js && cp README.md ../",
     "dist": "npm run clean:dist && npm run lint && webpack --config webpack.config/dist.js",
     "test": "jest --no-cache"
   },

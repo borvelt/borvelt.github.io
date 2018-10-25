@@ -1,5 +1,3 @@
 # borvelt.github.io
-
-_borvelt.github.io_
-
-*Write your own project README*
+Personal web site of me
+### ReactJS with [SweetBundler](https://github.com/borvelt/sweet-bundler)
