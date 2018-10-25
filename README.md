@@ -1,3 +1,3 @@
 # borvelt.github.io
 Personal web site of me
-## ReactJS and Webpack 4
+### ReactJS with [SweetBundler](https://github.com/borvelt/sweet-bundler)
